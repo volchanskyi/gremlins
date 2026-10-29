@@ -7,11 +7,11 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/coverage"
-	"github.com/go-gremlins/gremlins/internal/engine"
-	"github.com/go-gremlins/gremlins/internal/gomodule"
-	"github.com/go-gremlins/gremlins/internal/mutator"
+	"github.com/volchanskyi/gremlins/internal/configuration"
+	"github.com/volchanskyi/gremlins/internal/coverage"
+	"github.com/volchanskyi/gremlins/internal/engine"
+	"github.com/volchanskyi/gremlins/internal/gomodule"
+	"github.com/volchanskyi/gremlins/internal/mutator"
 )
 
 const switchFile = "switch.go"

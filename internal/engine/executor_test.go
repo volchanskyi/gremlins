@@ -28,11 +28,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/engine"
-	"github.com/go-gremlins/gremlins/internal/engine/workerpool"
-	"github.com/go-gremlins/gremlins/internal/gomodule"
-	"github.com/go-gremlins/gremlins/internal/mutator"
+	"github.com/volchanskyi/gremlins/internal/configuration"
+	"github.com/volchanskyi/gremlins/internal/engine"
+	"github.com/volchanskyi/gremlins/internal/engine/workerpool"
+	"github.com/volchanskyi/gremlins/internal/gomodule"
+	"github.com/volchanskyi/gremlins/internal/mutator"
 )
 
 func TestApplyAndRollback(t *testing.T) {

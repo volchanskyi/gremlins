@@ -25,10 +25,10 @@ import (
 	"github.com/MakeNowJust/heredoc"
 	"github.com/spf13/cobra"
 
-	"github.com/go-gremlins/gremlins/cmd/internal/flags"
-	"github.com/go-gremlins/gremlins/internal/configuration"
+	"github.com/volchanskyi/gremlins/cmd/internal/flags"
+	"github.com/volchanskyi/gremlins/internal/configuration"
 
-	"github.com/go-gremlins/gremlins/internal/log"
+	"github.com/volchanskyi/gremlins/internal/log"
 )
 
 const paramConfigFile = "config"

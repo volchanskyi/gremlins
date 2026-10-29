@@ -4,7 +4,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"github.com/go-gremlins/gremlins/internal/coverage"
+	"github.com/volchanskyi/gremlins/internal/coverage"
 )
 
 // caseSpan is the extent of the case expressions a coverage run proves were evaluated.

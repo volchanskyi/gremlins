@@ -26,12 +26,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/engine/workdir"
-	"github.com/go-gremlins/gremlins/internal/engine/workerpool"
-	"github.com/go-gremlins/gremlins/internal/gomodule"
-	"github.com/go-gremlins/gremlins/internal/log"
-	"github.com/go-gremlins/gremlins/internal/mutator"
+	"github.com/volchanskyi/gremlins/internal/configuration"
+	"github.com/volchanskyi/gremlins/internal/engine/workdir"
+	"github.com/volchanskyi/gremlins/internal/engine/workerpool"
+	"github.com/volchanskyi/gremlins/internal/gomodule"
+	"github.com/volchanskyi/gremlins/internal/log"
+	"github.com/volchanskyi/gremlins/internal/mutator"
 )
 
 // DefaultTimeoutCoefficient is the default multiplier for the timeout length
