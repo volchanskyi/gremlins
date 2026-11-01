@@ -184,6 +184,7 @@ func Tag(n, a, b int) string {
 func TestCaseExpressionCoverage(t *testing.T) {
 	t.Parallel()
 	for _, tc := range caseCoverageTests() {
+		tc := tc
 		t.Run(tc.name, func(t *testing.T) {
 			t.Parallel()
 			statuses := caseMutantStatuses(t, tc.src, tc.ran)
